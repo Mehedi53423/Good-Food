@@ -46,9 +46,7 @@ p{
 }
 
 .secTextStyle{
-    width: 50%;
-    padding: 20px;
-
+    width: 35%;
 }
 
 .firstImgStyle{
@@ -81,4 +79,26 @@ button{
     cursor: pointer;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
+}
+
+.flexSec{
+    display: flex;
+}
+
+.flexSec img{
+    height: 300px;
+    width: 600px;
+    border-radius: 25px;
+}
+
+.centerCon{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imgConStyle{
+    padding: 40px 40px 250px 40px;
+    box-shadow: 0 0 20px black;
+    border-radius: 25px;
 }
