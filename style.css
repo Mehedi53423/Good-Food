@@ -1,73 +1,17 @@
+/* All */
+
+*{
+    margin: 0;
+}
+
+/* HTML tag styles */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 span{
     color: orange;
-}
-
-h1{
-    font-size: 80px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-}
-
-h2{
-    font-size: 60px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-p{
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.firstSctionStyle{
-    display: flex;
-    margin: 15px 45px;
-    padding: 15px 35px;
-    align-items: center;
-    background-image: url();
-}
-
-.secondSctionStyle{
-    display: flex;
-    border: 0;
-    margin: 0;
-    padding: 15px 35px;
-    align-items: center;
-    background-image: url("images/bg2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.firstTextStyle{
-    width: 50%;
-    padding: 20px;
-
-}
-
-.secTextStyle{
-    width: 35%;
-}
-
-.firstImgStyle{
-    width: 50%;
-}
-
-.secImgStyle{
-    width: 50%;
-}
-
-.firstImgStyle img{
-    width: 100%;
-}
-
-.secImgStyle img{
-    width: 300px;
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
 }
 
 button{
@@ -78,11 +22,142 @@ button{
     border: 0px white;
     cursor: pointer;
     font-size: 25px;
+    box-shadow: 0 0 10px rgba(255, 166, 0, 0.671);
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 25px 0 150px 0;
     font-family: 'Roboto', sans-serif;
 }
 
+footer h3{
+    padding-top: 25px;
+}
+
+footer p{
+    padding-top: 50px;
+}
+
+/* Classes */
+
+/* Font Sizes */
+
+.firstHeaderSize{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.secHeaderSize{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.thiHeaderSize{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paraFontSize{
+    font-size: 25px;
+}
+
+/* Colors */
+
+.textColorBlack{
+    color: black;
+}
+
+.textColorGray{
+    color: #555656;
+}
+
+.textColorWhite{
+    color: white;
+}
+
+/* Display */
+
 .flexSec{
     display: flex;
+}
+
+/* Container Style */
+
+.firstSecStyle{
+    display: flex;
+    margin: 15px 45px;
+    padding: 15px 35px;
+    align-items: center;
+}
+
+.firstSecStyle p{
+    padding: 50px 0 50px 0;
+}
+
+.secSecStyle{
+    display: flex;
+    margin-bottom: 100px;
+    padding: 0 35px;
+    align-items: center;
+    background-image: url("images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secSecStyle p{
+    padding: 50px 0 50px 0;
+}
+
+.midSecStyle{
+    margin: 100px 130px 100px 130px;
+    padding: 25px 0px 25px 0px;
+    box-shadow: 0 0 20px black;
+    border-radius: 25px;
+}
+
+/* Text Style */
+
+.firstTextStyle{
+    width: 50%;
+    padding: 20px;
+}
+
+.secTextStyle{
+    width: 35%;
+}
+
+.lastTextStyle{
+    padding: 50px 400px 50px 400px;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+/* Images Styles */
+
+.firstImgStyle{
+    width: 50%;
+}
+
+.firstImgStyle img{
+    width: 100%;
+}
+
+.secImgStyle{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.secImgStyle img{
+    width: 300px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
 }
 
 .flexSec img{
@@ -91,14 +166,13 @@ button{
     border-radius: 25px;
 }
 
-.centerCon{
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
 .imgConStyle{
     padding: 40px 40px 250px 40px;
     box-shadow: 0 0 20px black;
     border-radius: 25px;
+}
+
+.centerCon{
+    margin-left: auto;
+    margin-right: auto;
 }
