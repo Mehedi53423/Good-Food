@@ -29,7 +29,6 @@ footer{
     text-align: center;
     background-color: black;
     padding: 25px 0 150px 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 footer h3{
@@ -111,9 +110,9 @@ footer p{
 }
 
 .midSecStyle{
-    margin: 100px 130px 100px 130px;
-    padding: 25px 0px 25px 0px;
-    box-shadow: 0 0 20px black;
+    margin: 100px 148px 100px 148px;
+    padding: 100px 0px 100px 0px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 25px;
 }
 
@@ -161,15 +160,24 @@ footer p{
 }
 
 .flexSec img{
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 700px;
     border-radius: 25px;
 }
 
 .imgConStyle{
-    padding: 40px 40px 250px 40px;
-    box-shadow: 0 0 20px black;
+    padding: 40px 40px 80px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 25px;
+    width: 700px;
+}
+
+.imgConStyle h1{
+    padding: 50px 0 25px 0;
+}
+
+.imgMidStyle{
+    padding: 0 120px 0 120px;
 }
 
 .centerCon{
